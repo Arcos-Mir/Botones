@@ -1,0 +1,55 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+
+}
+
+div {
+    margin: 20px 0px ;
+}
+.btn {
+    background: #32021f;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;/*siempre se agrega esta propiedad cuando se trabaja con paddin o margenes*/
+    margin: 0 10px;
+}
+/* Efecto de opacidad al pasar el mouse sobre el boton*/
+.btn:hover {
+    opacity: .8;
+}
+
+/*Tamaños*/
+.small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.big {
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.extra-big {
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+/*colores*/
+
+.azul { background: #246eb9;}
+.verde { background: #4fb560}
+.naranja { background: #f9a03f;}
+
+/* Efectos*/
+
+.border-radius {
+    border-radius: 100px;
+}
